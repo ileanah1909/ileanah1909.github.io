@@ -1,0 +1,22 @@
+div {
+    button {
+      transition: transform 0.7s ease-in-out;
+    }
+    
+    button:hover {
+      transform: rotate(030deg);
+    }
+    
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    }
+
+.container { 
+    display: grid;
+    grid-template-columns:  100px 100px 100px;
+    grid-gap: 20px;
+
+}
+
