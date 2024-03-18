@@ -1,20 +1,59 @@
-div {
-    button {
-      transition: transform 0.7s ease-in-out;
-    }
-    
-    button:hover {
-      transform: rotate(030deg);
-    }
-    
-    img {
-      width: 70px;
-      height: 70px;
-    }
-    }
+body {
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+#banner a {
+    margin-right: 33%;
+}
+
+#heading {
+    text-align: center;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+
+
 
 .container {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 20px
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 25%;
 }
+
+
+.weeks img {
+    width: 70px;
+    height: auto;
+
+}
+
+.weeks img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.weeks img:hover {
+    transform: rotate(030deg);
+}
+
+
