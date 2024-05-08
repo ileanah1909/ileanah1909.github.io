@@ -1,5 +1,5 @@
 body {
-
+  cursor: url("../img/egg.png"), auto;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -56,4 +56,5 @@ body {
     transform: rotate(030deg);
 }
 
+    
 
